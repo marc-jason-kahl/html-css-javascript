@@ -58,20 +58,20 @@
     <div class="container background-logo background-logo--html">
       <div class="container-inner container--wrapped html" data-before="<HTML>" data-after="</HTML>">
         <h2>&lt;HTML&gt;</h2>
-        <p>Um elektronische Dolkumente wie Texte, Hyperlinks (Links zu anderen Seiten), Bildern usw. zu struckturieren
-          benutzt man HTML (Hypertext Markup Languag). Diese Auszeichnungssprache ist die Grundlage für das World Wide
+        <p>Um elektronische Dokumente wie Texte, Hyperlinks (Links zu anderen Seiten), Bildern usw. zu strukturieren
+          benutzt man HTML (Hypertext Markup Language). Diese Auszeichnungssprache ist die Grundlage für das World Wide
           Web.</p>
         <p>HTML wird durch verschiedene Tags (Auszeichnungen) so wie <code class="language-html">&lt;head&gt;</code> und
           <code class="language-html">&lt;body&gt;</code> strukturiert. Der <code
             class="language-html">&lt;head&gt;</code> beinhaltet alle nicht sichtbaren Einstellung der Website. Der <code
             class="language-html">&lt;body&gt;</code> hingegen ist dazu da um Informationen die sichtbar sind, also die
-          Inhalte der Seite die der User sieht, darzustellen.</p>
-        <p>Der <code class="language-html">&lt;head&gt;</code> kann z.B. das meta Tag enthalten. Ein beispielt hierfür
-          wäre das meta tag um die Website auf ein UTF-8 Codierung einzustellen. Desweiteren werden hier auch die Open
-          Graph Tags für social media Informationen angegeben und in den meisten fällen Extern Dateien wie CSS oder
+          Inhalte der Seite, die der User sieht, darzustellen.</p>
+        <p>Der <code class="language-html">&lt;head&gt;</code> kann z.B. das Meta Tag enthalten. Ein Beispiel hierfür
+          wäre das Meta Tag um die Website auf eine UTF-8 Codierung einzustellen. Des Weiteren werden hier auch die Open
+          Graph Tags für Social Media Informationen angegeben und in den meisten Fällen Externe Dateien wie CSS oder
           JavaScript verlinkt.</p>
-        <p>Einige Beispiele für den body währen der h1 Tag, der die Überschrift darstellt oder das p Tag das zur
-          Darstellung von Paragraphen da ist. Hier gibt es noch etliche Weitere HTMl Tags wie z.B. Formulare, Listen,
+        <p>Einige Beispiele für den <code class="language-html">&lt;body&gt;</code> währen der h1 Tag, der die Überschrift darstellt oder das p Tag, dass zur
+          Darstellung von Paragraphen da ist. Hier gibt es noch etliche weitere HTML Tags wie z.B. Formulare, Listen,
           Buttons, usw.</p>
         <pre class="language-html"><code>&lt;html&gt;<br />
   &lt;head&gt;
@@ -91,15 +91,15 @@
       <div class="container-inner container--wrapped css" data-before="CSS {" data-after="}">
         <h2>CSS</h2>
         <p>CSS ist eine Computersprache um Websites aufzubauen und zu struckturieren. Diese Sprache enthält Codeelemente
-          und setzt sich aus diesen "Cascading stylesheets" zusammen, die auch CSS-Dateien (.css) genannt werden.</p>
-        <p>Es gibt ID's und Klassen um die Element im Dokument zu Identifizieren. ID's sind dazu da, um einzellne Elemente
+          und setzt sich aus diesen "Cascading Style Sheets" zusammen, die auch CSS-Dateien (.css) genannt werden.</p>
+        <p>Es gibt ID's und Klassen um die Element im Dokument zu identifizieren. ID's sind dazu da, um einzellne Elemente
           zu bestimmen:</p>
         <pre class="language-css"><code class="language-css">#beispiel {}</code></pre>
         <p>während Klassen dafür da sind, mehrere Elementen zu bestimmen.</p>
         <pre class="language-css"><code class="language-css">.beispiel {}</code></pre>
         <p>Man kann auch alle Elemente eines Tags (z.B. alle divs) bestimmen.</p>
         <pre class="language-css"><code class="language-css">div {}</code></pre>
-        <p>Man dies auch Kombinieren.</p>
+        <p>Oder diese Kombinieren.</p>
         <pre class="language-css"><code class="language-css">div.beispiel {}
 .beispiel#beispiel {}</code></pre>
       </div>
@@ -110,11 +110,11 @@
     <div class="container background-logo background-logo--javascript">
       <div class="container-inner container--wrapped javascript" data-before="JavaScript {" data-after="}">
         <h2>JavaScript</h2>
-        <p>JavaScript gehört heutzutage mit zu den Kernkomponent einer Website. Es gibt diverse Anwendungsgebiet hierfür wie z.B. Client-Seitiges Javascript um die Website Interaktiver zu gestallten oder Element dynamisch nach zu laden.</p>
-        <p>Um ein paar bekannte Einsatzmöglichkeiten, die jeder kennt, zu nennen wären hier Seiten die <a href="https://scrollmagic.io/examples/advanced/infinite_scrolling.html" alt="Ininity scrolling Beispiel">"infinity scrolling"</a> nutzen. Der Benutzer scroll die Seite und es werden kontinuierlich Element wie z.B. Bilder nachgeladen.</p>
-        <p>Andere einsatztgebiete sind Lightboxen, Slider oder Filter.</p>
-        <p>In gegensatzt zu CSS und HTML ist JavaScript eine vollwärtige Programmiersprache.</p>
-          <pre class="language-javascript"><code class="language-javascript">// Eine simple for Schleife
+        <p>JavaScript gehört heutzutage mit zu den Kernkomponent einer Website. Es gibt diverse Anwendungsgebiet hierfür wie z.B. Client-Seitiges Javascript um die Website interaktiver zu gestallten oder Elemente dynamisch nach zu laden.</p>
+        <p>Um ein paar bekannte Einsatzmöglichkeiten, die jeder kennt, zu nennen, wären hier Seiten die <a href="https://scrollmagic.io/examples/advanced/infinite_scrolling.html" alt="Ininity scrolling Beispiel">"infinity scrolling"</a> nutzen. Der Benutzer scrollt die Seite und es werden kontinuierlich Elemente wie z.B. Bilder nachgeladen.</p>
+        <p>Andere Einsatztgebiete sind Lightboxen, Slider oder Filter.</p>
+        <p>Im Gegensatzt zu CSS und HTML ist JavaScript eine vollwärtige Programmiersprache.</p>
+        <pre class="language-javascript"><code class="language-javascript">// Eine simple for Schleife
 for(const i = 0; i < 10; i++) {
   console.log(i)
 }
@@ -126,7 +126,8 @@ if(x === 4) {
 } else {
   console.log("x is ungleich 4")
 }
-          </code></pre>
+        </code></pre>
+        <p>JavaScript findet man heutzutage aber nicht nur Anwendung im Frontend einer Website sondern auch in vielen anderen Gebieten wie in SPAs, im Backend von Webseiten oder in Shell Scripten.</p>
       </div>
     </div>
   </section>
