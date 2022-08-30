@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Informationen der Sprachen HTML, CSS und JavaScript</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="../css/normalize.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css">
+  <!-- <script src="js/index.js" defer></script> -->
+</head>
+
+<body>
+  <div class="header">
+    <div class="header-inner">
+      <!-- <h1><span class="html">&lt; HTML &gt;</span> <br /> <span class="css">{ CSS }</span> <br /> <span class="javascript">{ JAVASCRIPT }</span></h1> -->
+      <h1>Informationen der Sprachen HTML, CSS und JavaScript</h1>
+    </div>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="container-inner two-col">
+        <div>
+          <img src="../img/circle-image.png" alt="Logos im Kreis die sich in der Mitte schneiden" />
+        </div>
+        <div>
+          <h2>Was ist HTML, CSS und JavaScript?</h2>
+          <ul>
+            <li>HTML, CSS und JavaScript Kernkomponent</li>
+            <li>
+              HTML
+              <ul>
+                <li>Hypertext Markup Languag</li>
+                <li>Dokument</li>
+                <li>Seitenstruktur und Inhalt</li>
+              </ul>
+            </li>
+            <li>
+              CSS
+              <ul>
+                <li>Cascading Style Sheet</li>
+                <li>Stylesheet-Sprache</li>
+                <li>Layout und Desing</li>
+              </ul>
+            </li>
+            <li>
+              JavaScript
+              <ul>
+                <li>Interaktion und Verhalten</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </section>
+
+  <section id="html">
+    <div class="container background-logo background-logo--html">
+      <div class="container-inner container--wrapped html" data-before="<HTML>" data-after="</HTML>">
+        <h2>&lt;HTML&gt;</h2>
+        <p>Um elektronische Dolkumente wie Texte, Hyperlinks (Links zu anderen Seiten), Bildern usw. zu struckturieren
+          benutzt man HTML (Hypertext Markup Languag). Diese Auszeichnungssprache ist die Grundlage für das World Wide
+          Web.</p>
+        <p>HTML wird durch verschiedene Tags (Auszeichnungen) so wie <code class="language-html">&lt;head&gt;</code> und
+          <code class="language-html">&lt;body&gt;</code> strukturiert. Der <code
+            class="language-html">&lt;head&gt;</code> beinhaltet alle nicht sichtbaren Einstellung der Website. Der <code
+            class="language-html">&lt;body&gt;</code> hingegen ist dazu da um Informationen die sichtbar sind, also die
+          Inhalte der Seite die der User sieht, darzustellen.</p>
+        <p>Der <code class="language-html">&lt;head&gt;</code> kann z.B. das meta Tag enthalten. Ein beispielt hierfür
+          wäre das meta tag um die Website auf ein UTF-8 Codierung einzustellen. Desweiteren werden hier auch die Open
+          Graph Tags für social media Informationen angegeben und in den meisten fällen Extern Dateien wie CSS oder
+          JavaScript verlinkt.</p>
+        <p>Einige Beispiele für den body währen der h1 Tag, der die Überschrift darstellt oder das p Tag das zur
+          Darstellung von Paragraphen da ist. Hier gibt es noch etliche Weitere HTMl Tags wie z.B. Formulare, Listen,
+          Buttons, usw.</p>
+        <pre class="language-html"><code>&lt;html&gt;<br />
+  &lt;head&gt;
+  &lt;!-- Head content --&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+  &lt;!-- Body content --&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section id="css">
+    <div class="container background-logo background-logo--css">
+      <div class="container-inner container--wrapped css" data-before="CSS {" data-after="}">
+        <h2>CSS</h2>
+        <p>CSS ist eine Computersprache um Websites aufzubauen und zu struckturieren. Diese Sprache enthält Codeelemente
+          und setzt sich aus diesen "Cascading stylesheets" zusammen, die auch CSS-Dateien (.css) genannt werden.</p>
+        <p>Es gibt ID's und Klassen um die Element im Dokument zu Identifizieren. ID's sind dazu da, um einzellne Elemente
+          zu bestimmen:</p>
+        <pre class="language-css"><code class="language-css">#beispiel {}</code></pre>
+        <p>während Klassen dafür da sind, mehrere Elementen zu bestimmen.</p>
+        <pre class="language-css"><code class="language-css">.beispiel {}</code></pre>
+        <p>Man kann auch alle Elemente eines Tags (z.B. alle divs) bestimmen.</p>
+        <pre class="language-css"><code class="language-css">div {}</code></pre>
+        <p>Man dies auch Kombinieren.</p>
+        <pre class="language-css"><code class="language-css">div.beispiel {}
+.beispiel#beispiel {}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section id="javascript">
+    <div class="container background-logo background-logo--javascript">
+      <div class="container-inner container--wrapped javascript" data-before="JavaScript {" data-after="}">
+        <h2>JavaScript</h2>
+        <p>JavaScript gehört heutzutage mit zu den Kernkomponent einer Website. Es gibt diverse Anwendungsgebiet hierfür wie z.B. Client-Seitiges Javascript um die Website Interaktiver zu gestallten oder Element dynamisch nach zu laden.</p>
+        <p>Um ein paar bekannte Einsatzmöglichkeiten, die jeder kennt, zu nennen wären hier Seiten die <a href="https://scrollmagic.io/examples/advanced/infinite_scrolling.html" alt="Ininity scrolling Beispiel">"infinity scrolling"</a> nutzen. Der Benutzer scroll die Seite und es werden kontinuierlich Element wie z.B. Bilder nachgeladen.</p>
+        <p>Andere einsatztgebiete sind Lightboxen, Slider oder Filter.</p>
+        <p>In gegensatzt zu CSS und HTML ist JavaScript eine vollwärtige Programmiersprache.</p>
+          <pre class="language-javascript"><code class="language-javascript">// Eine simple for Schleife
+for(const i = 0; i < 10; i++) {
+  console.log(i)
+}
+
+// Ein If Conditional
+const x = 4
+if(x === 4) {
+  console.log("x is gleich 4")
+} else {
+  console.log("x is ungleich 4")
+}
+          </code></pre>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+
+</html>
